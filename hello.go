@@ -8,3 +8,8 @@ import "fmt"
 func SayHi(name string) {
 	fmt.Printf("你好%s, 我是jokereven. 很高兴认识你~\n", name)
 }
+
+// SayBye 一个打招呼的函数
+func SayBye(name string) {
+	fmt.Printf("你好%s, 我是jokereven. 期待下次相见~\n", name)
+}
